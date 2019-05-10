@@ -1,2 +1,3 @@
-# gittocos
-Sync a git repo to tencent cos
+# Git to COS
+
+Sync a git repo to tencentyun COS.
