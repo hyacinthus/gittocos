@@ -1,6 +1,6 @@
 FROM python
 
-RUN pip install coscmd && mkdir /data && coscmd config -a ${SECRET_ID} -s {SECRET_KEY} -b ${BUCKET} -r ${REGION}
+RUN pip install coscmd && mkdir /data && coscmd config -a ${SECRET_ID} -s ${SECRET_KEY} -b ${BUCKET} -r ${REGION}
 
 ADD entrypoint.sh /bin/entrypoint.sh
 
